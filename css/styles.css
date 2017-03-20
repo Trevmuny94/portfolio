@@ -1,0 +1,51 @@
+/*===============FONT===============*/
+@import url('https://fonts.googleapis.com/css?family=Marcellus+SC');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+/*===============UNIVERSALS===============*/
+.marcellus-text{
+  font-family: 'Marcellus SC', serif;
+}
+
+.lora-text{
+  font-family: 'Lora', serif;
+}
+
+/*===============NAVBAR====================*/
+.navbar{
+  padding-top: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: rgba(255, 255, 255, .5);
+  color: #004589;
+  border-radius: 5px;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #004589
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  background-color: rgba(100, 100, 100, .5);
+  color: #002045;
+  border-radius: 5px;
+}
+/*================JUMBOTRON==============*/
+.jumbotron{
+  height: 820px;
+  background-image: url("../img/jumbotron-pic.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/*================ABOUT ME==============*/
+#about-me-sec{
+  margin-top: 150px;
+}
+
+#about-me-sec h1{
+  color: #004589;
+}
